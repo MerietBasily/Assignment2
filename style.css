@@ -1,0 +1,80 @@
+body{
+background-color: lightgrey;
+}
+.nav{
+  background-color: rgb(0, 0, 0);
+  height: 40px;
+  text-align: center;
+}
+.navi{
+  color: rgb(255,255,255);
+  width: 25px;
+  padding: 10px 30px;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+  .navi:hover{
+    background-color: orange;
+  }
+.scroll{
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 30%;
+  height: 300px;
+  margin-top: 5%;
+  margin-left: 30%;
+  border-color: hotpink;
+  border-style: solid;
+}
+.image{
+  margin-top: 5%;
+  border-radius: 10%;
+}
+.footer{
+  background-color: rgb(0, 0, 0);
+  height: 50px ;
+  align-content: center;
+  text-align: center;
+  color: white;
+}
+.paragraph1{
+  background-color: hotpink;
+  font-family: arial;
+  margin: 0;
+  display: grid;
+}
+.paragraph2{
+    background-color: pink;
+    font-family: courier;
+    display: grid;
+
+}
+.paragraph3{
+    background-color: lightpink;
+    font-family: corsiva;
+    display: grid;
+}
+.button{
+  background-color: orange;
+  margin-left: 60%;
+  margin-top: 5%;
+  width: 15%;
+border-radius: 25%;
+height: 45px;
+align-content: center;
+border-color: white;
+}
+.left{
+display:inline-grid;
+margin-left: 60%;
+margin-top: 10%;
+position: absolute;
+}
+.buttontext{
+color: rgb(255,255,255);
+}
+.center{
+  display: grid;
+}
